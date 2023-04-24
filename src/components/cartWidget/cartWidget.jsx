@@ -2,13 +2,12 @@
 import React, { useState } from 'react';
 
 function CartWidget() {
-  const [valorCarrito, setValorCarrito] = useState(0);
 
   return (
     <div>
-      <p>{valorCarrito}
-      <span onClick={() => setValorCarrito(valorCarrito + 1)}>
-      🛒
+      <p>
+      <span>
+      1🛒
       </span>
       </p>
     </div>
